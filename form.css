@@ -126,10 +126,6 @@ form input:focus {
     border: blue solid;
 }
 
-.error {
-    border: red solid;
-}
-
 #create {
     padding: 1% 3%;
     background-color: #203628;
@@ -149,4 +145,8 @@ form input:focus {
 
 .bottom a:hover {
     text-decoration: underline;
+}
+
+input:invalid {
+    border: red solid;
 }
