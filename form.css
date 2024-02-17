@@ -119,6 +119,7 @@ form input {
     padding: 5px;
     border-radius: 5px;
     border-color: rgba(0, 0, 0, 0.2);
+    width: 60%;
 }
 
 form input:focus {
@@ -127,4 +128,25 @@ form input:focus {
 
 .error {
     border: red solid;
+}
+
+#create {
+    padding: 1% 3%;
+    background-color: #203628;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.bottom p {
+    font-weight: bold;
+}
+
+.bottom a {
+    color: #203628;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
 }
